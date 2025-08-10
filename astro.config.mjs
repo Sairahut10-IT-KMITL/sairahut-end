@@ -8,7 +8,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     preview:{
-      allowedHosts : ['sairahut.it.kmitl.ac.th']
+      allowedHosts : true
     }
   }
 });
