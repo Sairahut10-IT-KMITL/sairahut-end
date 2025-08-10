@@ -7,8 +7,11 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      host: true,
+    },
     preview:{
-      allowedHosts : true
+      allowedHosts : ['sairahut.it.kmitl.ac.th']
     }
   }
 });
