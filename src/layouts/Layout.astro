@@ -1,3 +1,9 @@
+---
+import "../styles/global.css";
+import "@fontsource/koho";
+import "../styles/fonts.css";
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,7 +11,26 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>สายรหัส ครั้งที่ 10 | The Dragon's Last Wish 🐉🔥</title>
+		<meta
+			name="description"
+			content="กิจกรรมพบปะสายรหัส IT Sairahut 10 | The Dragon's Last Wish 🐉🔥"
+		/>
+		<meta
+			property="og:title"
+			content="สายรหัส ครั้งที่ 10 | The Dragon's Last Wish 🐉🔥"
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://sairahut.it.kmitl.ac.th" />
+		<meta
+			property="og:description"
+			content="กิจกรรมพบปะสายรหัส IT Sairahut 10 | The Dragon's Last Wish 🐉🔥"
+		/>
+		<meta
+			property="og:image"
+			content="https://sairahut.it.kmitl.ac.th/og.jpg"
+		/>
+		<meta property="og:image:alt" content="The Dragon's Last Wish 🐉🔥" />
 	</head>
 	<body>
 		<slot />
@@ -13,10 +38,7 @@
 </html>
 
 <style>
-	html,
 	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
+		font-family: "KoHo", sans-serif;
 	}
 </style>

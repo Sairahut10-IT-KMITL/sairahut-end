@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Sarun';
+    src: url('/fonts/sarun/SarunsJackSparrow.woff2') format('woff');
+  }
+
+.sarun {
+    font-family: 'Sarun', sans-serif;
+}
